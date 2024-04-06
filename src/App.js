@@ -1,10 +1,8 @@
-import './App.css';
+import Body from './components/Body';
 
 function App() {
   return (
-    <div className="text-3xl bg-pink-100">
-      Namasthe React<p className='item text-ellipsis '></p>
-    </div>
+    <Body/>
   );
 }
 
