@@ -7,6 +7,7 @@ import usePopularMovies from '../hooks/usePopularMovies';
 const Browse = () => {
   useNowPlayingMovies();
   usePopularMovies();
+  
 
   return (
     <div>
